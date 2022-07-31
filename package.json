@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch '**/*.ts' --exec 'ts-node' index.ts"
+    "dev": "nodemon --watch '**/*.ts' --exec ts-node index.ts"
   },
   "author": "",
   "dependencies": {
+    "@calblueprint/airlock": "^0.7.3",
     "airlock-server": "^0.2.3",
     "tslib": "^2.0.3"
   },
